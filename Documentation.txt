@@ -1,0 +1,32 @@
+Example:
+
+They are planning a surprise party for their friend.
+
+Yahoo, India won the match!
+
+What are you doing at the garden?
+
+We had pancakes for breakfast.
+
+
+
+
+Power Of Project with Examples
+
+1. Can handle all types of sentences including question sentence, exclamation sentence.
+Sentences dealing with possession
+
+2. Syntax throughly checked and uppercase and lowercase and extra charcter is also checked along with punctuations. Checked proper noun first letter.
+
+3. Articles is checked
+
+
+
+ Limitations Of Project
+
+1. Can't handle a word present in multiple files and behave differently according to situation.
+            E.x. -> Play, Love, Blind is verb and noun.
+
+2. Need to have pre-defined sequences & generating sequence is a tedious task.
+
+4. Noun gender check not applied

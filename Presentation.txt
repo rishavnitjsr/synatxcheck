@@ -1,0 +1,55 @@
+1. They are planning a surprise party for their friend.
+2. Yahoo, India won the match!
+3. What are you doing at the garden?
+4. We had pancakes for breakfast.
+
+Step By Step:-
+Step 1-- 
+    Enter a sentence:"They are planning a surprise party for their friend."
+
+Step 2-- 
+	Check Capital Letter and Punctuation. Here 'T' and '.'
+
+Step 3--
+	Check if sentence is EXCLAMATORY / INTERROGATIVE and Valid.
+	Here it is neither Exclamatory nor Interrogative but is valid as
+	punctuation and first letter being capital, is on point.
+
+Step 4-- 
+	Push each word in vector.
+	VECTOR->{they,are,planning,a,surprise,party,for,their,friend}
+
+Step 5--
+	Article and Case Check.
+
+Step 6--
+    *LOOP TILL LAST WORD.
+    * IF (NOT LAST WORD)
+		1. Check MULTIPLICITY:
+			-IF MULTIPLICITY = 1 THEN PUSH fileaname in SEQUENCE
+			-IF MULTIPLICITY > 1 THEN Eliminate General Case and
+							  PUSH fileaname/key in SEQUENCE
+			-IF Can't Eliminate general case then "NO EXPERTISE"
+			 AND EXIT code.
+				
+    *After LAST Word RETURN a string containing SEQUENCE of Filenames.
+	Word			Current SEQUENCE ckc034001111600111
+	----------------------------------------------------
+	they			ck
+	are			ckc0
+	planning		ckc034
+	a			ckc03400
+	surprise		ckc0340011
+	party		ckc034001111
+	for			ckc03400111160
+	their		ckc0340011116001
+	friend		ckc034001111600111
+	
+	RETURNED SEQUENCE: "ckc034001111600111"
+
+Step 7--
+	*IF returned SEQUENCE Exist in PreDefined Sequence file
+	 THEN SENTENCE is SYNTACTICALLY CORRECT.
+	*ELSE Sentence is Syntactically INCORRECT>
+	
+
